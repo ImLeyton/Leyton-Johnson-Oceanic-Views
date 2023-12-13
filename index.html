@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Amazing Oceanic Sights</title>
+
+    <!--Google Fonts CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!--Google ICON CDN CSS-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!--Font Awesome CDN CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Fancy App CDN CSS-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+  />
+
+    <!--AOS CSS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+      <!-- Add the slick-theme.css if you want default styling -->
+  <link
+  rel="stylesheet"
+  type="text/css"
+  href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link
+  rel="stylesheet"
+  type="text/css"
+  href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+  />
+
+    <!--Local CSS-->
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- Bootstrap CDN CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+
+      <!--Begin Google Icons-->
+      <div class="container text-center top-logo">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <span class="material-symbols-outlined">
+              <a href="https://qrh8fg.csb.app/">home </a>
+            </span>
+          </div>
+          <div class="col-12 col-md-6">
+            <span id="my-google-font">Ocean Views</span>
+          </div>
+        </div>
+      </div>
+      <!--Google Icon Ends-->
+
+      <!--Top Nav Bar Begins-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid nav-back">
+          <!--<a class="navbar-brand" href="#">Navbar</a>-->
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://qrh8fg.csb.app/">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://qrh8fg.csb.app/sunlight.html">Sunlight Zone</a></li>
+                  <li><a class="dropdown-item" href="https://qrh8fg.csb.app/twilight.html">Twilight Zone</a></li>
+                  <li>
+                    <a class="dropdown-item" href="https://qrh8fg.csb.app/midnight.html">Midnight Zone</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Top Nav Bar Stops-->
+    </header>
+
+    <main>
+      <!--Carousel Begins-->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+            <img src="/Images/Index-images/carousel-3.jpg"
+              class="d-block w-100"
+              alt="Sunlight Zone Banner"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sunlight Zone</h5>
+              <p>
+                Explore life underwater that we are able to see.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/Images/Index-images/carousel-2.jpg" class="d-block w-100" alt="Twilight Zone Banner"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Twilight Zone</h5>
+              <p>
+                Explore how life is in a zone of the water with little light.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/Images/Index-images/carousel-1.jpg"
+              class="d-block w-100"
+              alt="Midnight Zone Banner"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Midnight Zone</h5>
+              <p>
+                Explore how life is in a zone of the water with no light.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Carousel Ends-->
+
+      <!--Font Awesome Icons-->
+      <div class="container-fluid text-center fa-row">
+        <div class="row">
+          <div
+            class="col col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+           <i class="fa-solid fa-water fa-row-icon"></i>
+            <br />
+            <text class="row-icon-text"><a href="https://qrh8fg.csb.app/sunlight.html">Sunlight Zone</a><text>
+          </div>
+          <div
+            class="col col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+          <i class="fa-regular fa-moon fa-row-icon"></i>
+            <br />
+            <text class="row-icon-text"><a href="#">Twilight Zone</a></text>
+          </div>
+          <div
+            class="col col-xs-12 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+          <i class="fa-solid fa-circle-half-stroke fa-row-icon"></i>
+            <br />
+            <text class="row-icon-text"><a href="#">Midnight Zone</a></text>
+          </div>
+        
+         
+        </div>
+      </div>
+
+      <!--Begin First Paragraph section-->
+      <div class="container first-paragraph-div">
+        <div class="row">
+          <div class="col-12">
+          <img 
+          src="/Images/Index-images/clownfish.jpg" 
+          alt="Clownfish" 
+          class="img-responsive first-paragraph-img"
+          />
+          <h2>The Ocean</h2>
+         
+          <p>
+
+            The world's oceans are divided into three distinct zones based on depth and light penetration: the sunlight zone, the twilight zone, and the midnight zone. Each zone has its unique characteristics and supports different ecosystems.
+          </p>
+          <p>
+            The sunlight zone, also known as the euphotic or epipelagic zone, extends from the surface down to about 200 meters. This zone receives abundant sunlight, allowing photosynthesis to occur, which is the foundation of the marine food web. The sunlight zone is home to a diverse array of marine life, including phytoplankton, zooplankton, fish, and marine mammals. Coral reefs, one of the most productive and diverse ecosystems on Earth, are also found in this zone due to the availability of sunlight for photosynthesis.
+          </p>
+          <p>
+            Below the sunlight zone lies the twilight zone, also known as the mesopelagic zone, which extends from 200 meters to around 1000 meters. In this zone, sunlight rapidly diminishes, and only a small fraction of it reaches the depths. Despite the reduced light, some bioluminescent organisms inhabit the twilight zone, producing light through chemical reactions. Many species of fish and squid are adapted to low light conditions, and some have developed unique bioluminescent features to navigate and communicate in the darkness.
+          </p>
+          <p>
+            The midnight zone, or the aphotic or bathypelagic zone, lies below the twilight zone and extends from about 1000 meters to the ocean floor. In this zone, sunlight is virtually nonexistent, and total darkness prevails. The midnight zone is characterized by extreme pressure, low temperatures, and limited food resources. Despite these challenging conditions, various organisms have adapted to thrive in this zone, including deep-sea fish, squid, and invertebrates. Some of these creatures have developed specialized adaptations such as large eyes and bioluminescence to navigate and locate prey in the darkness.
+          </p>
+          <p>
+            Understanding the different ocean zones is crucial for comprehending the complex and interconnected nature of marine ecosystems. Each zone plays a vital role in supporting marine life and contributes to the overall health and balance of the world's oceans.
+          </p>
+        </div>
+      </div>
+    </div>
+ 
+  
+      <!--End First Paragraph Section-->
+
+<!--begin isotope and fancy app-->
+
+<div class="container isotope-filter">
+  <h2>
+    Ocean Zones 
+  </h2>
+  <!--Begin Filter Buttons-->
+  <div class="button-group filters-button-group">
+    <button class="button is-checked" data-filter="*">Show All
+
+    </button>
+    <button class="button is-checked" data-filter=".sunlight">
+      Sunlight Zone
+    </button>
+    <button class="button is-checked" data-filter=".twilight">
+      Twilight Zone
+    </button>
+    <button class="button is-checked" data-filter=".midnight">
+      Midnight Zone
+    </button>
+  
+  <!--End Filter Buttons-->
+  <div class="row">
+    <!--Grid Begins-->
+    <div class="grid">
+
+   
+    <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-ccl-4">
+      <!--Card-->
+        <div class="card element-item sunlight" style="width: 18rem;">
+          <a
+          href="/Images/Index-images/Square-Reef.jpg"
+          data-fancybox="gallery"
+          data-caption="Single image"
+        >   
+          <img 
+            src="/Images/Index-images/Square-Reef.jpg" 
+            class="card-img-top" 
+            alt="Sunlight Reef"
+            />
+        </a>
+            <div class="card-body">
+              <h5 class="card-title">Sunlight Zone</h5>
+              <p class="card-text">Explore amazing photography and information about the Sunlight Zone</p>
+              <a href="https://qrh8fg.csb.app/sunlight.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-ccl-4">
+            <!--Card-->
+        <div class="card element-item twilight" style="width: 18rem;">
+          <a
+        href="/Images/Index-images/twilight-reef.jpg"
+        data-fancybox="gallery"
+        data-caption="Single image"
+          >
+            <img 
+            src="/Images/Index-images/twilight-reef.jpg"
+            class="card-img-top" 
+            alt="Twilight Reef"
+        />
+        </a>
+            <div class="card-body">
+              <h5 class="card-title">Twilight Zone</h5>
+              <p class="card-text">Explore amazing photography and information about the Twilight Zone.</p>
+              <a href="https://qrh8fg.csb.app/twilight.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-ccl-4">
+            <!--Card-->
+        <div class="card element-item midnight" style="width: 18rem;">
+          <a
+        href="/Images/Index-images/midnight-reef.jpg"
+        data-fancybox="gallery"
+        data-caption="Single image"
+      >
+            <img src="/Images/Index-images/midnight-reef.jpg" class="card-img-top" 
+            alt="midnight reef"
+            />
+        </a>
+            <div class="card-body">
+              <h5 class="card-title">Midnight Zone</h5>
+              <p class="card-text">Explore amazing photography and information about the Midnight Zone.</p>
+              <a href="https://qrh8fg.csb.app/midnight.html" class="btn btn-primary">Explore</a>
+            </div>
+          </div>
+    </div>
+  </div>
+     <!--Grid Ends-->
+</div>
+</div>
+<!--end isotope and fancy app-->
+
+<!--Begin 2nd Paragraph-->
+<div class="container first-paragraph-div">
+  <div class="row">
+    <div class="col-12">
+    <img 
+    src="/Images/Index-images/pollution.jpg" 
+    alt="Turtle stuck in plastic" 
+    class="img-responsive second-paragraph-img">
+    <h2>Saving our Ocean</h2>
+    <p>
+      Reduce Plastic Usage:
+      One of the most significant threats to the oceans is plastic pollution. To address this issue, individuals and communities can take steps to reduce plastic usage. This includes using reusable bags, water bottles, and containers, and avoiding single-use plastics. Proper waste disposal and recycling also play a crucial role in preventing plastic from entering the oceans. Public awareness campaigns and policy initiatives can further encourage responsible plastic use and disposal.
+    </p>
+    <p>
+      Sustainable Fishing Practices:
+      Overfishing is a major concern that disrupts marine ecosystems and depletes fish populations. Implementing and promoting sustainable fishing practices is essential for the health of our oceans. This includes enforcing catch limits, protecting critical habitats, and utilizing techniques that minimize bycatch. Supporting and promoting sustainable seafood choices can also influence the fishing industry to adopt more environmentally friendly practices.
+    </p>
+    <p>
+      Protecting Coastal Habitats:
+      Coastal habitats, such as mangroves, seagrasses, and salt marshes, serve as crucial breeding grounds and nurseries for many marine species. Protecting and restoring these habitats is essential for maintaining biodiversity and supporting healthy fisheries. Coastal development should be carefully planned to minimize its impact on these ecosystems. Additionally, creating marine protected areas can provide safe havens for marine life to thrive and help restore damaged ecosystems.
+    </p>
+    <p>
+      Addressing Climate Change:
+      Climate change has far-reaching impacts on the oceans, including rising sea temperatures, ocean acidification, and changes in sea levels. Mitigating climate change is a fundamental step in protecting our oceans. This involves reducing carbon emissions through the use of renewable energy sources, promoting energy efficiency, and supporting initiatives that aim to combat climate change. Global cooperation and policy efforts are crucial for addressing this issue on a large scale.
+    </p>
+    <p>
+      Community Engagement and Education:
+      Engaging local communities and raising awareness about the importance of ocean conservation are key components of effective long-term strategies. Educational programs, community clean-up initiatives, and partnerships between governments, NGOs, and businesses can empower individuals to make informed choices and take collective action. By fostering a sense of responsibility and stewardship, we can inspire a global movement dedicated to saving our oceans for future generations.
+    </p>
+  </div>
+</div>
+</div>
+
+<!--End 2nd Paragraph-->
+ <hr />
+<!--Begin headshot Section-->
+<div class="container headshot text-center">
+  <div class="row">
+    <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+<img 
+src="/Images/Index-images/henry.jpg" 
+alt="Henry Longfellow" 
+class="cropped" 
+data-aos="zoom-in"> 
+<br />
+<blockquote>
+  Would you learn the secret of the sea? Only those who brave its dangers, comprehend its mystery!
+  <cite>
+    Henry Wadsworth Longfellow.
+  </cite>
+    </blockquote>
+    </div>
+    <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+        <img 
+        src="/Images/Index-images/Teresa.jpg" 
+        alt="Mother Teresa" 
+        class="cropped" 
+        data-aos="zoom-in">
+   
+        <br />
+        <blockquote>
+          We ourselves feel that what we are doing is just a drop in the ocean. But the ocean would be less because of that missing drop.
+          <cite>
+            Mother Teresa
+          </cite>
+            </blockquote>
+ </div>
+ <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+<img 
+src="/Images/Index-images/walt.jpg" 
+alt="Walt Whitman" 
+class="cropped" 
+data-aos="zoom-in">
+
+  <br />
+ <blockquote>
+  To me the sea is a continual miracle; The fishes that swim the rocks the motion of the waves the ships, with men in them, What stranger miracles are there?
+    <cite>
+      Walt Whitman.
+    </cite>
+   </blockquote>
+                  
+</div>
+</div>
+</div>
+<!--End headshot Section-->
+
+    </main>
+
+    <footer>
+      <!--Begin Footer-->
+<div class="container-fluid text-center footer-row">
+  <div class="row">
+    <div class="col">
+      <a href="#">Footer item One</a>
+    </div>
+
+    <div class="col">
+      <a href="#">Footer item Two</a>
+      </div>
+
+      <div class="col">
+        <a href="#">Footer item Three</a>
+        </div>
+
+        <div class="col">
+          <a href="#"> Footer item Four </a>
+          </div>
+
+
+          <div class="col">
+            <a href="#">Footer item Five </a> 
+            </div>
+
+            <div class="col">
+              <a href="#">Footer item Six </a> 
+              </div>
+  </div>
+<hr />
+  <div class="row">
+       
+          <div class="col-12">
+            <a href="https://www.facebook.com"> <i class="fa-brands fa-facebook fa-social-media"></i></a>
+            <a href="https://www.instagram.com"> <i class="fa-brands fa-instagram fa-social-media"></i></a>
+            <a href="https://www.twitter.com"> <i class="fa-brands fa-twitter fa-social-media"></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube fa-social-media"></i></a>
+            <a href="https://www.tiktok.com"> <i class="fa-brands fa-tiktok fa-social-media"></i></a>
+          </div>      
+    </div>
+  
+</div>
+      <!--End Footer-->
+    </footer>
+
+    <!-- Begin JS Section -->
+    <section>
+      <!-- JQuery CDN -->
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      >
+      </script>
+
+      <!-- Bootstrap JS CDN -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+      ></script>
+
+      <!--Fancy App CDN JS-->
+      <script 
+      src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js">
+      </script>
+
+      <!--AOS CDN JS-->
+      <script 
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+      </script>
+      <script>
+        AOS.init();
+      </script>
+
+<!--Iostope JS CDN-->
+<script 
+src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js">
+</script>
+
+      <!-- Local JavaScript -->
+      <script 
+      src="/js/scripts.js">
+      </script>
+
+      <!-- End JS Section -->
+    </section>
+  
+  </body>
+</html>
+

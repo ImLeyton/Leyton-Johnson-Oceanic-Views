@@ -1,0 +1,71 @@
+@import "global.css";
+@import "main.css";
+
+.fa-row {
+  background-color: rgb(30, 30, 85) !important;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fa-row-icon {
+  font-size: 80px;
+  color: var(--secondaryColor) !important;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.fa-row-icon:hover {
+  transform: scale(1.1);
+}
+
+.fa-row a {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+
+.first-paragraph-div {
+  box-shadow: var(--boxShadow) !important;
+  position: relative;
+  background-color: #fffffd;
+  color: var(--accentColor) !important;
+  font-family: "Oxygen", sans-serif;
+  font-size: 24px;
+  padding: 20px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-paragraph-img {
+  position: relative;
+  float: left;
+  padding-right: 18px;
+}
+.second-paragraph-img {
+  position: relative;
+  float: right;
+  padding-right: 18px;
+}
+
+@media (max-width: 900px) {
+  .first-paragraph-img {
+    position: relative;
+    float: none;
+    padding-right: 0px;
+  }
+}
+.cropped {
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  border: 10px solid var(--accentColor) !important;
+  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
+}

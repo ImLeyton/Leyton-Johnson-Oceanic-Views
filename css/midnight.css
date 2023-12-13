@@ -1,0 +1,97 @@
+@import "global.css";
+@import "main.css";
+
+.first-midnight-div {
+  box-shadow: var(--boxShadow) !important;
+  position: relative;
+  background-color: #fffffd;
+  color: var(--accentColor) !important;
+  font-family: "Oxygen", sans-serif;
+  font-size: 24px;
+  padding: 20px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-midnight-img {
+  position: relative;
+  float: left;
+  padding-right: 18px;
+}
+.second-midnight-div {
+  box-shadow: var(--boxShadow) !important;
+  position: relative;
+  background-color: #fffffd;
+  color: var(--accentColor) !important;
+  font-family: "Oxygen", sans-serif;
+  font-size: 24px;
+  padding: 20px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.second-midnight-img {
+  position: relative;
+  float: right;
+  padding-right: 18px;
+}
+
+@media (max-width: 900px) {
+  position: relative;
+  float: none;
+  padding-right: 0px;
+}
+
+.web-form {
+  width: 75%;
+  position: relative;
+  margin: auto;
+  background-color: #574bb6;
+  padding: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+
+.web-form div {
+  margin-top: 10px;
+}
+
+#age {
+  width: 100px;
+}
+#date {
+  width: 150px;
+}
+
+#custom {
+  margin-top: 5px;
+  display: none;
+}
+
+.radio,
+.checkbox {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+#about-you {
+  width: 50%;
+  height: 100px;
+}
+
+.submit {
+  border-color: var(--secondaryColor) !important;
+  color: var(--dominantColor) !important;
+  background-color: var(--secondaryColor) !important;
+}
+
+.submit:hover {
+  border-color: black !important;
+  background-color: black !important;
+  color: white !important;
+}
